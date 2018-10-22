@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Movie Explorer</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+    </head>
+    <body>
+        <div data-movie-container>
+            <div data-movie-core-info-container>
+                <h1 data-movie-title>Title</h1>
+                <span data-movie-runtime>Runtime</span>
+                <span data-movie-id>#Id</span>
+                <span data-movie-adult>Adult</span>
+            </div>
+            <div data-movie-additional-info-container>
+                <img data-movie-poster alt="No poster available.">
+                <ul data-movie-basic-info-list>
+                    <li data-movie-tagline></li>
+                    <li data-movie-original-title>Original title: </li>
+                    <li data-movie-original-language>Original language: </li>
+                    <li data-movie-genres>Genres: </li>
+                    <li data-movie-status>Status: </li>
+                    <li data-movie-overview>Overview: </li>
+                </ul>
+                <ul data-movie-additional-info-list>
+                    <li data-movie-popularity>Popularity: </li>
+                    <li data-movie-vote-average>Vote average: </li>    
+                    <li data-movie-vote-count>Vote count: </li>
+                    <li data-movie-release-date>Release date: </li>    
+                    <li data-movie-homepage>Home page: <a data-movie-homepage-link>Link</a></li>
+                    <li data-movie-spoken-languages>Spoken languages: </li>
+                    <li data-movie-budget>Budget: </li>
+                    <li data-movie-revenue>Revenue: </li>
+                    <li data-movie-imdb-id>IMDB ID: </li>
+                    <li data-movie-production-countries>Production countries: </li>
+                    <li data-movie-production-companies>Production companies: </li>
+                </ul>
+            </div>
+            <input type="text" placeholder="Movie ID" data-movie-search-id-input>
+            <button data-movie-search-id-button>Click</button>
+        </div>
+
+
+
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="scripts.js"></script>
+    </body>
+</html>
