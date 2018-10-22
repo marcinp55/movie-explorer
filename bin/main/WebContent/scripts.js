@@ -1,5 +1,5 @@
 $(document).ready(function() { 
-    var apiRoot = 'http://localhost:8080/movies/';
+    var apiRoot = 'https://agile-temple-78913.herokuapp.com/movies/';
     var movieDbImgBaseUrl = 'http://image.tmdb.org/t/p/';
 
     $('[data-movie-search-id-button]').on('click', searchById);
